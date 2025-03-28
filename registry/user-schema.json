@@ -1,0 +1,13 @@
+{
+    "type" : "record",
+    "namespace":"romain_demo",
+    "name" : "User",
+    "fields" : [
+        {"name": "username", "type":"string", "doc": "le username du user"},
+        {"name": "age", "type":"int", "default":0},
+        {"name": "taille", "type":"float"},
+        {"name": "actif", "type":"boolean"},
+        {"name": "composite", "type": "oneOf"}
+    ],
+    "doc" : "un user demo pour le cour"
+}

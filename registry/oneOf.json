@@ -1,0 +1,10 @@
+{
+    "oneOf":[
+        {
+            "$ref": "produitA.json"
+        },
+        {
+            "$ref":"produitB.json"
+        }
+    ]
+}
